@@ -1,61 +1,23 @@
-# Ncap
-Ncap — lightweight network scanning tool
-
 # Windows Installation
-
-- Run CMD with Admin
-- Clone the repository:
-- git clone https://github.com/Khalid2899/NetRat-.git
-- cd NetRat
+- Run CMD as Admin
+- git clone https://github.com/Mata4r/Ncap.git
+- cd Ncap
 - pip install scapy
-- python NetRat.py
+- python Ncap.py
 
 # Linux Installation
-
 - Run Terminal
-- git clone https://github.com/Khalid2899/NetRat-.git
-cd N
+- git clone https://github.com/Mata4r/Ncap.git
+- cd Ncap
+- sudo apt update
+- sudo apt install python3 python3-pip -y
+- pip3 install scapy
+- sudo python3 Ncap.py
 
-
-Update system and install Python:
-
-sudo apt update
-sudo apt install python3 python3-pip -y
-
-
-Install dependencies:
-
-pip3 install scapy
-
-
-Run the tool:
-
-sudo python3 NetRat.py
-
-MacOS Installation
-
-Run Terminal
-
-Clone the repository:
-
-git clone https://github.com/Khalid2899/NetRat-.git
-
-
-Navigate to the project folder:
-
-cd NetRat-
-
-
-Install Python via Homebrew:
-
-brew install python
-
-
-Install dependencies:
-
-pip3 install scapy
-
-
-Run the tool:
-
-sudo python3 NetRat.py
+# MacOS Installation
+- Run Terminal
+- git clone https://github.com/Mata4r/Ncap.git
+- cd Ncap
+- brew install python
+- pip3 install scapy
+- sudo python3 Ncap.py
