@@ -1,3 +1,10 @@
+# Features
+- Network sniffing
+- Arp spoofing
+- Ping
+- Domain ip cache
+- Domain ping
+
 # Windows Installation
 - Run CMD as Admin
 - git clone https://github.com/Mata4r/Ncap.git
