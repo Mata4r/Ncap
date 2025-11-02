@@ -1,9 +1,6 @@
 from scapy.all import IP, ICMP, sniff,sr1, Ether, ARP, srp, TCP,  get_if_list, socket
 from termcolor import colored
 
-bracket1 = (colored('[','red'))
-bracket2 = (colored(']','red'))
-
 print()
 print("""\t
 \t███╗   ██╗ ██████╗ █████╗ ██████╗ 
@@ -132,4 +129,5 @@ while True:
  elif option=='5':
      Web_Ping()
  else:
+
      print(colored(f'\tInvalid option. Please choose a valid number','yellow'))
